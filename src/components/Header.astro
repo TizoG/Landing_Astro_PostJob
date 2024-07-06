@@ -1,0 +1,104 @@
+---
+
+---
+
+<nav class="cabecera">
+    <div class="navegacion">
+        <div class="left-side">
+            <img src="/src/assets/logo.png" alt="logo de la web">
+            <p>PostJob</p>
+            <div class="links">
+                <a href="#">Al Cover Letter Generator</a>
+                <a href="#">Resume Template</a>
+                <a href="#">Pricing</a>
+            </div>
+        </div>
+        <div class="right-side">
+            <button class="button-simple">Sign In</button>
+            <button class="button-color">Get Started</button>
+        </div>
+    </div>
+
+</nav>
+
+<style>
+    .cabecera{
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    .navegacion{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .left-side{
+        display: flex;
+        align-items: center;
+        font-size: 24px;
+
+        
+
+        & p{
+            margin-right: 40px;
+            font-size: 1.5em;
+            font-weight: bold;
+            color: white;
+        }
+    }
+
+    .left-side .links a{
+        margin-right: 15px;
+        text-decoration: none;
+        color: #909090;
+    }
+
+    .left-side .links a:hover{
+        text-decoration: underline;
+    }
+
+    .right-side{
+        display: flex;
+        align-items: center;
+    }
+
+    .button-simple, button-color{
+        margin-left: 10px;
+        padding: 10px 20px;
+        border: 1px solid transparent;
+        cursor: pointer;
+        border-radius: 5px;
+        
+        
+    }
+
+    .button-simple{
+        background-color: transparent;
+        border: 2px solid #6DE754;
+        color: white;
+        height: 44px;
+        width:119px;
+        margin-right: 16px;
+        
+    } 
+
+    .button-simple:hover{
+        opacity: .8;
+    }
+
+    .button-color{
+        margin-right: 104px;
+        height: 44px;
+        width: 157px;
+        background-color: #6DE754;
+        color: black;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .button-color:hover{
+        opacity: .8;
+    }
+</style>

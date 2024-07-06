@@ -1,0 +1,16 @@
+{
+  "name": "postjobs",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@fontsource-variable/playfair-display": "^5.0.25",
+    "astro": "^4.11.5"
+  }
+}

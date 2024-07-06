@@ -1,0 +1,86 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+---
+
+<Layout title="Welcome to Astro.">
+	<main>
+		<section class="hero">
+
+			<div class="contenido">
+				<h1 class="text-color">Win your dream job</h1>
+				<h1 class="text-white">with PostJob</h1>
+				<p>Submit better job app -- 10x faster. AI cover letter<br>
+				generator, resume keyword cheker, outreach message<br>
+				writer, and more. Powered by GPT</p>
+				<input type="email" name="email" id="email" placeholder="Enter your email"><button>Start For Free</button>
+			</div>
+		</section>
+	</main>
+</Layout>
+
+<style>
+	.hero{
+		display: flex;
+		justify-content: center;
+		margin-top: 80px;
+	}
+
+	.contenido{
+		height: 210px;
+		width: 852px;
+		text-align: center;
+
+		& h1{
+			font-size: 88px;
+			
+		}
+
+		& p{
+			font-size: 16px;
+			color: #909090;
+			margin-top: -20px;
+
+		}
+	}
+
+	.text-color{
+		color: #6DE754;
+	}
+
+	.text-white{
+		color: white;
+		margin-top: -20px;
+		
+	}
+
+	input{
+		height: 60px;
+		width: 567px;
+		border-radius: 16px;
+		padding-left: 20px;
+		font-size: 16px;
+		background-color: transparent;
+		color: #909090;
+		border: 1px solid #909090;
+		position: relative;
+	}
+
+	button{
+		position: absolute;
+		margin-left: -180px;
+		margin-top: 9px;
+		height: 44px;
+		width: 175px;
+		border: none;
+		border-radius: 12px;
+		background-color: #6DE754;
+		cursor: pointer;
+
+	}
+
+	button:hover{
+		opacity: .8;
+	}
+
+</style>
